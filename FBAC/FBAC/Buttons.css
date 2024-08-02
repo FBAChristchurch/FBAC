@@ -1,0 +1,143 @@
+.bg{
+    background-color: rgb(255, 217, 200);
+}
+
+.document{
+  border-radius: 25px;
+}
+
+.text{
+  color: rgb(84, 73, 68);
+}
+
+.sites-button{
+    background-color: rgb(8, 4, 44);
+    color: rgba(255, 255, 255, 0.75);
+    height: 36px;
+    width: 125px;
+    cursor: pointer;
+    transition: background-color 1s;
+    transition: color 1s;
+    border-style: solid;
+    border-color: rgb(8, 4, 44);
+    transition: height 1s;
+    margin: -3px;
+    margin-top: -4px;
+    margin-left: 0px;
+    margin-right: -4px;
+}
+
+.sites-button:hover {
+    background-color: white;
+    color: rgb(8, 4, 44);
+    border-color: rgb(8, 4, 44);
+    border-style: solid;
+    height: 46px;
+}
+
+.fill{
+  background-color: rgb(8, 4, 44);
+  color: rgba(255, 255, 255, 0.75);
+  height: 36px;
+  width: 125px;
+  cursor: pointer;
+  transition: background-color 1s;
+  transition: color 1s;
+  border-style: solid;
+  border-color: rgb(8, 4, 44);
+  transition: height 1s;
+  margin: -3px;
+  margin-top: -4px;
+  margin-left: 0px;
+  margin-right: -4px;
+}
+
+.fill:hover{
+  background-color: white;
+    color: rgb(8, 4, 44);
+    border-color: rgb(8, 4, 44);
+    border-style: solid;
+    height: 46px;
+}
+
+.dropbtn {
+    background-color: rgb(8, 4, 44);
+    color: rgba(255, 255, 255, 0.75);
+    height: 36px;
+    width: 125px;
+    cursor: pointer;
+    transition: background-color 1s;
+    transition: color 1s;
+    border-style: solid;
+    border-color: rgb(8, 4, 44);
+    transition: height 1s;
+    margin: -3px;
+    margin-top: -4px;
+    margin-left: 0px;
+    margin-right: -4px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(8, 4, 44);
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    transition: background-color 1s;
+    transition: color 1s;
+    border-style: solid;
+    border-color: rgb(8, 4, 44);
+    transition: height 1s;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgba(255, 255, 255, 0.75);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 135px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.75);
+    height: 36px;
+    cursor: pointer;
+    transition: background-color 1s;
+    transition: color 1s;
+    border-style: solid;
+    border-color: rgb(8, 4, 44);
+    transition: height 1s;
+    margin: -3px;
+    margin-top: -4px;
+    margin-left: 0px;
+    margin-right: -4px;
+    color: rgb(8, 4, 44);
+    border-color: rgb(8, 4, 44);
+    border-style: solid;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+    color: rgb(8, 4, 44);
+    border-color: rgb(8, 4, 44);
+    border-style: solid;
+    height: 46px;
+  }
+
+.fisher{
+  border: none;
+  width: 600px;
+}
